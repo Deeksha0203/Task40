@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: sans-serif, 'poppins';
+    overflow: hidden;
+}
+
+.computer{
+    padding: 50px 100px;
+    line-height: 25px;
+}
+
+.speed{
+    margin-top: 10px;
+}
+
+.system{
+    margin-top: 20px;
+}
+
+@media(max-width:768px){
+
+    .computer h3{
+        color: red;
+        font-size: 1.5em;
+    }
+
+    .computer p{
+        font-size: 1.1em;
+    }
+}
+
+@media(max-width:425px){
+    
+    .system{
+        color: green;
+    }
+}
